@@ -47,7 +47,7 @@ class Song
   end
 
   def self.new_from_filename(name)
-
+    name.split(/ /)
   end
 
   def self.destroy_all
